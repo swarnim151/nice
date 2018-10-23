@@ -35,6 +35,13 @@ li $v0, 11        //loading the value 11 in v0 register to print a character
 addi $a0, $a0, 2      //PRINTING newline, decimal value for [LINE FEED]in ascii is 10(8+2)
 syscall
 
+addi $a0, $a0, 56      //PRINTING 'B', decimal value for 'B' in ascii is 66(10+56)
+syscall
+
+addi $a0, $a0, 38     //PRINTING 'h', decimal value for 'h' in ascii is 104(66+38)
+syscall
+
+
 
 
 
