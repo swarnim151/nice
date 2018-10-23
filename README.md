@@ -10,6 +10,12 @@ li $v0, 4        //loading the value 4 in v0 register to print an integer
 addi $a0, $a0, -64       //PRINTING 0 by subtracting 64 and storing the result in $a0
 syscall
 
+addi $a0, $a0, 2      //PRINTING 2 by adding 0 and 2 and storing the result in $a0
+syscall
+
+addi $a0, $a0, 6       //PRINTING 8 by adding 2 and 6 and storing the result in $a0
+syscall
+
 
 
 li $v0,10        //prompting the program to end
