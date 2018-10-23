@@ -53,6 +53,14 @@ syscall
 addi $a0, $a0, -3      //PRINTING 'a', decimal value for 'a' in ascii is 97(100-3)
 syscall
 
+addi $a0, $a0, 17      //PRINTING 'r', decimal value for 'r' in ascii is 114(97+17)
+syscall
+
+addi $a0, $a0, -9      //PRINTING 'i', decimal value for 'i' in ascii is 105(114-9)
+syscall
+
+
+
 
 
 li $v0,10        //prompting the program to end
