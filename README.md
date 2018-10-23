@@ -22,6 +22,12 @@ syscall
 addi $a0, $a0, 2       //PRINTING 6 by adding 4 and 2 and storing the result in $a0
 syscall
 
+addi $a0, $a0, -5    //PRINTING 1 by subtracting 5 from 6 and 1 and storing the result in $a0
+syscall
+
+addi $a0, $a0, 2      //PRINTING 3 by adding 1 and 2 and storing the result in $a0
+sys-call
+
 
 
 li $v0,10        //prompting the program to end
