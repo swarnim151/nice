@@ -47,6 +47,11 @@ syscall
 addi $a0, $a0, 13      //PRINTING 'n', decimal value for 'n' in ascii is 110(97+13)
 syscall
 
+addi $a0, $a0, -10      //PRINTING 'd', decimal value for 'd' in ascii is 100(110-10)
+syscall
+
+addi $a0, $a0, -3      //PRINTING 'a', decimal value for 'a' in ascii is 97(100-3)
+syscall
 
 
 
