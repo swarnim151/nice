@@ -65,6 +65,12 @@ syscall
 addi $a0, $a0, -12     //PRINTING [space],decimal value for [space] in ascii is 32 (44-12)
 syscall
 
+addi $a0, $a0, 51      //PRINTING S, decimal value for 'S' in ascii is 83 (32+51)
+syscall
+
+addi $a0, $a0, 36             //PRINTING w, decimal value for 'w' in ascii is 119 (83+36)
+syscall
+
 
 
 li $v0,10        //prompting the program to end
