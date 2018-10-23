@@ -28,6 +28,14 @@ syscall
 addi $a0, $a0, 2      //PRINTING 3 by adding 1 and 2 and storing the result in $a0
 sys-call
 
+addi $a0, $a0, 6      //PRINTING 8 by adding 2 and 6 and storing the result in $a0
+syscall
+
+li $v0, 11        //loading the value 11 in v0 register to print a character
+addi $a0, $a0, 2      //PRINTING newline, decimal value for [LINE FEED]in ascii is 10(8+2)
+syscall
+
+
 
 
 li $v0,10        //prompting the program to end
